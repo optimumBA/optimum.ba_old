@@ -1,0 +1,28 @@
+title: Optimum
+email: info@optimum.ba
+description: 'Sarajevo based web development agency'
+keywords: 'web, development, design, rails, ruby, ruby on rails, php, javascript, sql, laravel, jquery, kohana, git'
+url: ''
+baseurl: ''
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - s3_website.yml
+gems:
+  - jekyll-assets
+  - jekyll-sitemap
+markdown: kramdown
+highlighter: rouge
+assets:
+  baseurl: /assets/
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _vendors/Font-Awesome/css
+    - _vendors/Font-Awesome/fonts
+    - _vendors/bootstrap/dist/css
+  js_compressor: uglifier
+  css_compressor: sass
+  gzip: false
+  debug: false
